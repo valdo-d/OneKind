@@ -2,3 +2,7 @@
 /* not sure what to do with this but I want to be able to hook it up to work with the dropdown menu */
 #google_translate_element .goog-te-gadget-icon{display:none !important;
 }
+body  {
+    background-image: url("pexels-alexander-grey-1428171.jpg");
+    background-color: #cccccc;
+  }
