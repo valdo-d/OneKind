@@ -1,0 +1,4 @@
+
+/* not sure what to do with this but I want to be able to hook it up to work with the dropdown menu */
+#google_translate_element .goog-te-gadget-icon{display:none !important;
+}
