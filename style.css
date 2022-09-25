@@ -2,7 +2,17 @@
 /* not sure what to do with this but I want to be able to hook it up to work with the dropdown menu */
 #google_translate_element .goog-te-gadget-icon{display:none !important;
 }
+
+/* BACKGROUND CHANGE attempt */
+/* If I add a period before body, then the image does not extend beyond nav */
 body  {
     background-image: url("pexels-alexander-grey-1428171.jpg");
     background-color: #cccccc;
-  }
+   
+   
+   
+    /* background-position: center center; NOPE!!! */
+    
+    /* This makes bunch of them but the main image remains the same size */
+    /* background-size: 500px; */
+ }
