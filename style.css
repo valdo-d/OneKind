@@ -7,8 +7,13 @@
 /* If I add a period before body, then the image does not extend beyond nav */
 body  {
     background-image: url("pexels-alexander-grey-1428171.jpg");
-    background-color: #cccccc;
-   
+    background-color: #ff0000;
+    min-height: 100%;
+    min-width : 100%;
+    background-size:50% 50%;
+    background-repeat:no-repeat;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
    
    
     /* background-position: center center; NOPE!!! */
