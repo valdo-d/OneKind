@@ -5,16 +5,14 @@
 
 /* BACKGROUND CHANGE attempt */
 /* If I add a period before body, then the image does not extend beyond nav */
+
 .Background_Image {
     background-image: url("pexels-alexander-grey-1428171.jpg");
-    background-color: #ff0000;
-    /* min-height: 100%; */
-    min-width : 100%;
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    overflow-y: hidden;
-    overflow-x: hidden;
-   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+    width: 100%;
+    }
    
     /* background-position: center center; NOPE!!! */
     
