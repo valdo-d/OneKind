@@ -5,7 +5,7 @@
 
 /* BACKGROUND CHANGE attempt */
 /* If I add a period before body, then the image does not extend beyond nav */
-.Background_Image  {
+.Background_Image {
     background-image: url("pexels-alexander-grey-1428171.jpg");
     background-color: #ff0000;
     /* min-height: 100%; */
