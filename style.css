@@ -8,7 +8,7 @@
 body  {
     background-image: url("pexels-alexander-grey-1428171.jpg");
     background-color: #ff0000;
-    min-height: 100%;
+    /* min-height: 100%; */
     min-width : 100%;
     background-size:100% 100%;
     background-repeat:no-repeat;
