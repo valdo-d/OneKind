@@ -13,7 +13,11 @@
     height: 80vh;
     width: 100%;
     }
-   
+.text-white {
+padding-top: 20px;
+padding-left: 30px;
+
+   }
     /* background-position: center center; NOPE!!! */
     
     /* This makes bunch of them but the main image remains the same size */
