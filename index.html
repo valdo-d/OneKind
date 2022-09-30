@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- THE FUTURE: I intend to add pop up frame with very explanation - fields for personal info Name, email, phone# followed by check boxes with a SEND button-->
+
+
 <body>
     <!-- GOOGLE PAGE TRANSLATE starts here -->
     <div id="google_translate_element"></div>
@@ -116,7 +119,8 @@ function googleTranslateElementInit() {
       <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
         <div class="accordion-body">Without food life simply cannot be lived. If you are having trouble finding or providing food for yourself and those dearest to you, the right connection is just a click away.</div>
         <div>
-          <button type="button" class="btn btn-primary btn-sm">Food Connect</button></div>
+          <button type="button" class="btn btn-primary btn-sm">Food Connect</button>
+        </div>
         <div class="accordion-body"></div>
 
       </div>
@@ -215,7 +219,41 @@ function googleTranslateElementInit() {
   </div>
   <!-- ACCORDION end -->
 
-   
+  <!-- MODAL service contact card START -->
+  <div class="container mb-5">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Food Connect</button>
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+<h5 class="modal-title">Contact Us</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="mb-3">
+        <label class="form-label required">Name</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label required">Mobile phone#</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="text" class="form-control">
+      </div>
+    </form>
+  </div>
+      </div>
+</div>  
+  <div>
+  </div>
+
+</div>
+</div>
+   <!-- MODAL service contact card END -->
+  
     
 
 
